@@ -21,8 +21,13 @@ This is as a base point - we're trying not to deviate from the original board to
 * XT Keyboard INT0/SCROLL fix modification with JMP3 selection on/off
 * Right angle reset momentatary switch within T1 footprint
 * Modernise J3 keyboard connector footprint
-* J4 and J5 serial pin headers for external serial connections e.g. MAX3232 or USB
+* J4 and J5 serial pin headers for alternative serial connections
 * Added mounting holes
+
+# Version 1.1
+
+* C42 silkscreen
+* Fix J4 and J5 connections
 
 ## Version 1 BOM
 
