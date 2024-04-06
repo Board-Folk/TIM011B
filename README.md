@@ -28,6 +28,10 @@ This is as a base point - we're trying not to deviate from the original board to
 
 * C42 silkscreen
 * Fix J4 and J5 connections
+* Silkscreen updates
+* ROM A13 to GND
+* Increase DB25 mounting point radius to 1.6mm
+* Remove hole under C4
 
 ## Version 1 BOM
 
