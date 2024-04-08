@@ -13,4 +13,5 @@ ROM A13 to GND
 Increase DB25 mounting point radius to 1.6mm
 Remove hole under C4
 Credits change
+Add JMP4 Floppy Ready/Disk Change Modification
 
