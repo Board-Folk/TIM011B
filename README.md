@@ -32,8 +32,9 @@ This is as a base point - we're trying not to deviate from the original board to
 * ROM A13 to GND
 * Increase DB25 mounting point radius to 1.6mm
 * Remove hole under C4
+* Add JMP4 drive Ready/Disk Change modification
 
-## Version 1 BOM
+## Version 1.1 BOM
 
 |Qty|Reference(s)|Value|Type|Notes|
 |:--:|:--:|:--:|:--:|:--:|
@@ -85,6 +86,7 @@ This is as a base point - we're trying not to deviate from the original board to
 |1|JMP1|3 pin header|Header||
 |1|JMP2|5 pin header|Header||
 |1|JMP3|3 pin header|Header||
+|1|JMP4|2 pin header|Header||
 |1|P1|5 pin header|Header||
 |1|P3|2x20 pin header|Dual Row Header||
 |1|P4|2x17 pin header|Dual Row Header||
@@ -100,6 +102,7 @@ PCB Layout by Rob Taylor @peepouk. Schematics recreated and modifications by Ian
 ## Thanks
 
 * Zoltan Pekic
+* Marko Šolajić
 * @demerzel
 * (OTHERS!)
 * The Board Folk Team
