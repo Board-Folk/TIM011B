@@ -10,6 +10,8 @@ Version 1.1 does not to deviate from the original board too much so it can still
 
 The root Kicad folder contains the current work-in-progress version of the board. If you're looking to make one, don't use this, pick the latest version from the Releases folder, currently v1.1.
 
+Projects are in Kicad 8.
+
 ## Using the board
 
 The board requires 5V, 12V and -12V power. Power connectors on the board are the original Ei Niš connector P2, but due to the lack of availability of this part we've added P5, a standard 4 pin 3.96mm pin header to the rear of the board. 

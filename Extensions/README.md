@@ -6,3 +6,6 @@ Extension Boards for the TIM-011B
 
 ATMega/Arduino based PS/2 Keyboard Adapter. Currently a prototype / in development.
 
+## TIMAYSound
+
+To follow. AY-3-8910/12 expansion board for joystick and sound.
