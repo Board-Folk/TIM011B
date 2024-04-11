@@ -8,4 +8,4 @@ ATMega/Arduino based PS/2 Keyboard Adapter. Currently a prototype / in developme
 
 ## TIMAYSound
 
-To follow. AY-3-8910/12 expansion board for joystick and sound.
+AY-3-8910/12 expansion board for joystick and sound.
