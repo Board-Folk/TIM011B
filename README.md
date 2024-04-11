@@ -2,15 +2,29 @@
 
 An updated remake of the TIM-011 computer from Serbia.
 
-![Computer rendered image of board in green](https://github.com/Board-Folk/TIM011B/blob/main/images/TIM-011Bv1_render.png)
+![Image of build version 1 board in green](https://github.com/Board-Folk/TIM011B/blob/main/images/tim011bv1_built_small.png)
 
 This repository contains the BOM, gerbers and Kicad files for a remake of the TIM-011 from the Mihajlo Pupin Institute of Serbia, 1987.
 
-This is as a base point - we're trying not to deviate from the original board too much so it can still be considered a replica. Feel free to fork and make your own mods outside of that. Folder Expansions will contain add on extensions to the board.
+Version 1.1 does not to deviate from the original board too much so it can still be considered a replica. Feel free to fork and make your own mods outside of that. Future releases will contain improvements to this. Folder Extensions contains add on expansions and adapters for the board. More will follow over time.
+
+The root Kicad folder contains the current work-in-progress version of the board. If you're looking to make one, don't use this, pick the latest version from the Releases folder, currently v1.1.
+
+## Using the board
+
+The board requires 5V, 12V and -12V power. Power connectors on the board are the original Ei Niš connector P2, but due to the lack of availability of this part we've added P5, a standard 4 pin 3.96mm pin header to the rear of the board. 
+
+Video output is not standard, conversion is needed for use on a modern display. We will be posting options for this in the extensions folder. As a technical note, video is provided as 2 TTL signals to provide 4 shades, with a relatively wide horizonal and vertical sync for the original CRT. The horizontal sync is in an awkward position and is more simlar to horizonal drive found on comparible systems with a simple in-build CRT display.
+
+The keyboard is serial ASCII, 9600 8E1 with a 12V power output on the 5 pin DIN header. Adapter boards will be added to the extensions folder for this also.
+
+No operating system is included within the ROM - it needs to boot this from floppy disk or equivalent Gotek or Flash Floppy device.
+
+More information to follow.
 
 ## Revisions
 
-  * Version 1 Initial Release
+* Version 1.1 Initial Public Release
   
 ## Version 1 Modifications from Original
 
@@ -23,6 +37,7 @@ This is as a base point - we're trying not to deviate from the original board to
 * Modernise J3 keyboard connector footprint
 * J4 and J5 serial pin headers for alternative serial connections
 * Added mounting holes
+* Power LED
 
 # Version 1.1
 
@@ -31,7 +46,6 @@ This is as a base point - we're trying not to deviate from the original board to
 * Silkscreen updates
 * ROM A13 to GND
 * Increase DB25 mounting point radius to 1.6mm
-* Remove hole under C4
 * Add JMP4 drive Ready/Disk Change modification
 
 ## Version 1.1 BOM
@@ -104,7 +118,7 @@ PCB Layout by Rob Taylor @peepouk. Schematics recreated and modifications by Ian
 * Zoltan Pekic
 * Marko Šolajić
 * @demerzel
-* (OTHERS!)
+* OTHERS! We need to fully credit sources of information for this project.
 * The Board Folk Team
 
 ## Legal
