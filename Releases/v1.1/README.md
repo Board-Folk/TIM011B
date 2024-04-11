@@ -45,18 +45,18 @@
 |1|U30|43256 SRAM|IC||
 |1|T1|Unknown Reset Switch|Switch|T1 or T2|
 |1|T2|RA Momentary Switch|Switch||
-|1|J1|DB25 Male Right Angle|Socket||
-|1|J2|DB25 Female Right Angle|Socket||
-|1|J3|5 pin DIN|Socket|180 degree|
-|2|J4,J5|4 pin header|2.54mm Header||
+|1|J1|DB25 Male Right Angle|Socket|Printer|
+|1|J2|DB25 Female Right Angle|Socket|Serial|
+|1|J3|5 pin DIN|Socket|180 degree / ASCII Keyboard|
+|2|J4,J5|4 pin header|2.54mm Header|Alt TTL Serial|
 |1|JMP1|3 pin header|2.54mm Header||
 |1|JMP2|5 pin header|2.54mm Header||
-|1|JMP3|3 pin header|2.54mm Header||
-|1|JMP4|2 pin header|2.54mm Header||
-|1|P1|5 pin header|Header||
-|1|P3|2x20 pin header|Dual Row 2.54mm Header||
-|1|P4|2x17 pin header|Dual Row 2.54mm Header||
-|1|P2|Unknown Ei Niš 4 pin header|Header||
-|1|P5|3.96mm 4 pin header|3.96mm Header||
+|1|JMP3|3 pin header|2.54mm Header|XT keyboard mod enable|
+|1|JMP4|2 pin header|2.54mm Header|Fix Ready/Disk Change|
+|1|P1|5 pin header|Header|Video|
+|1|P3|2x20 pin header|Dual Row 2.54mm Header|Expansion|
+|1|P4|2x17 pin header|Dual Row 2.54mm Header|Floppy|
+|1|P2|Unknown Ei Niš 4 pin header|Header|Power|
+|1|P5|3.96mm 4 pin header|3.96mm Header|Alt Power|
 |1|Y1|12.288Mhz HC-49U|Crystal||
 |1|Y2|8.00Mhz HC-49U|Crystal||
