@@ -1,5 +1,7 @@
 # TIM-011B v1.1
 
+![Image of build version 1.1 board in green](https://github.com/Board-Folk/TIM011B/blob/main/images/TIM-011Bv1.1_render.png)
+
 ## Version 1.1 BOM
 
 |Qty|Reference(s)|Value|Type|Notes|

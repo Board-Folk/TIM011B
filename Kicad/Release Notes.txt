@@ -4,7 +4,6 @@ v1.1
 
 Remove C42 label
 Fix J4, J5 connections
-
 Fixed Zoltan credits silkscreen. Moved C6 and C7 down a little to avoid interference with crystals.
 Fixed the 2 x silkscreen octagons so they are symmetrical.
 Moved U15 designator to stop clash with R20 component and nearby via.

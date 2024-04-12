@@ -1,0 +1,319 @@
+(footprint "Electrolytic Capacitor Axial or Radial Alt"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CP, Axial series, Axial, Horizontal, pin pitch=100mm, , length*diameter=93*35.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf")
+	(tags "CP Axial series Axial Horizontal pin pitch 100mm  length 93mm diameter 35.0mm Electrolytic Capacitor")
+	(property "Reference" "C4"
+		(at -0.05 -2.43 0)
+		(layer "F.SilkS")
+		(uuid "d3ae867f-51ac-41a6-8053-c1e8a3e91b5e")
+		(effects
+			(font
+				(size 1.8 2.3)
+				(thickness 0.36)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "10uF"
+		(at 0 16.92 0)
+		(layer "F.Fab")
+		(uuid "4a4c4f86-f866-47d6-8781-75b7a98f5d58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Capacitor_THT:CP_Axial_L93.0mm_D35.0mm_P100.00mm_Horizontal"
+		(at 4.25 21.56 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7345476-dbb2-4f84-a0e7-6b2fdd860705")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42907f9c-5b47-436a-967c-4f940343e5a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Polarized capacitor"
+		(at 1.03 19.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57ac0f5e-100c-4b64-b5fd-a36794fde52f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.34 6.44)
+		(end -1.09 5.19)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c2130c-1a74-4629-9f9b-6cdd149c1bf2")
+	)
+	(fp_line
+		(start -2.34 11.48)
+		(end -2.34 6.44)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30880328-1466-4534-8018-58a9eaad3c02")
+	)
+	(fp_line
+		(start -2.3 2.69)
+		(end -1.75 2.14)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f864b66-0a29-4a8f-a4c9-852b1d32ba4b")
+	)
+	(fp_line
+		(start -2.3 3.98)
+		(end -2.3 2.69)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0cc1c35c-e927-4551-84ab-086029491afb")
+	)
+	(fp_line
+		(start -1.75 2.14)
+		(end 0.44 2.14)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f11f97a-851e-4bb6-8197-eb7680789efb")
+	)
+	(fp_line
+		(start -1.53 12.29)
+		(end -2.34 11.48)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f11f8269-efd8-4e8b-9990-d04df5211a7d")
+	)
+	(fp_line
+		(start -1.09 5.19)
+		(end -2.3 3.98)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f414c9b0-39d4-4d92-b291-e41806c3c136")
+	)
+	(fp_line
+		(start 0.01 -0.06)
+		(end 0.01 2.14)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47a6885b-57bf-49c2-884d-646be9deed27")
+	)
+	(fp_line
+		(start 0.01 12.29)
+		(end -1.53 12.29)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b94df97c-5480-44f8-afdd-6fa95c008639")
+	)
+	(fp_line
+		(start 0.01 12.29)
+		(end 1.55 12.29)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c47fef3-8233-47fd-b91a-90992625e4d1")
+	)
+	(fp_line
+		(start 0.01 14.93)
+		(end 0.01 12.29)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf18c6c6-e0b2-4e2c-bfdb-0f6bbb2a2651")
+	)
+	(fp_line
+		(start 1.11 5.19)
+		(end 2.32 3.98)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29ef59bb-fe6d-423f-bdbe-260043acd49d")
+	)
+	(fp_line
+		(start 1.55 12.29)
+		(end 2.36 11.48)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c243cfe7-e7ef-4594-a5de-c31d92528f2b")
+	)
+	(fp_line
+		(start 1.77 2.14)
+		(end 0.41 2.14)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "523eec12-c755-46b6-a5e1-1b7618ced276")
+	)
+	(fp_line
+		(start 2.32 2.69)
+		(end 1.77 2.14)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53fe2c1d-df21-412e-b5e7-c40a6920c812")
+	)
+	(fp_line
+		(start 2.32 3.98)
+		(end 2.32 2.69)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d2d950f-a13c-47b8-97c2-be46bbf924b4")
+	)
+	(fp_line
+		(start 2.36 6.44)
+		(end 1.11 5.19)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4483a1c-28da-4ea0-a597-ac104a8d7130")
+	)
+	(fp_line
+		(start 2.36 11.48)
+		(end 2.36 6.44)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "448fa9f6-5ccf-40a0-8aff-3b32b158ed4e")
+	)
+	(fp_circle
+		(center 0.008264 2.3)
+		(end 2.370001 2.3)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f3da9b65-b98a-47aa-9ec6-30b9c773463c")
+	)
+	(fp_text user "+"
+		(at 1.06 0.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "343d2b4c-f891-4ac4-9ff7-b7a4e8a9fddd")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.51 18.47 0)
+		(layer "F.Fab")
+		(uuid "6bdd575d-4e41-477d-bf30-3404f2795171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0.01 -0.06)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "686f19f9-02be-4e65-8189-ec7f21090f38")
+	)
+	(pad "2" thru_hole circle
+		(at 0.01 4.69)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36c841e7-ce7c-4fec-a5f5-554ad4a65ae9")
+	)
+	(pad "2" thru_hole circle
+		(at 0.01 14.93)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "076d1778-b502-4cdb-87e3-c5bbbe511ec4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Axial_L93.0mm_D35.0mm_P100.00mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
