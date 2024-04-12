@@ -23,10 +23,10 @@
 |4|R9,R11,R14,R16|1K|Resistor||
 |2|RP1,RP2|4K7 SIP10 Bussed|Resistor Network||
 |1|RP3|330R SIP10 Bussed|Resistor Network||
-|1|U17|HD64180|IC||
-|1|U43|FDC9266|IC||
-|1|U9|MC1488|IC||
-|1|U8|MC1489|IC||
+|1|U17|HD64180|IC|CPU|
+|1|U43|FDC9266|IC|Floppy Controller|
+|1|U9|MC1488|IC|Serial Line Driver|
+|1|U8|MC1489|IC|Serial Line Receiver|
 |1|U29|74HC153|IC||
 |2|U3,U13|74HC4040|IC||
 |1|U23|74LS00|IC||
@@ -44,9 +44,9 @@
 |1|U31|74LS32|IC||
 |5|U4-U6,U40,U41|74LS374|IC||
 |4|U7,U10,U15,U25|74LS74|IC||
-|1|U16|27C128|IC||
-|8|U36-U39,U45-U48|41256 DRAM|IC||
-|1|U30|43256 SRAM|IC||
+|1|U16|27C64|IC|System ROM|
+|8|U36-U39,U45-U48|41256 DRAM|IC|System RAM|
+|1|U30|43256 SRAM|IC|Video RAM|
 |1|T1|Unknown Reset Switch|Switch|T1 or T2|
 |1|T2|RA Momentary Switch|Switch||
 |1|J1|DB25 Male Right Angle|Socket|Printer|

@@ -24,6 +24,12 @@ No operating system is included within the ROM - it needs to boot this from flop
 
 More information to follow.
 
+## TIM011 Resources
+
+Marko Šolajić has put a great page together with a ROM, boot disks, software and other resources to help get the TIM-011 going. Highly recommended. The standard "sys", system ROM is 8KB, this will fit on the currently still manufactured and widely available AT28C64B.
+
+  [TIM011 Resources](https://blog.8bitchip.info/tim011-resources/)
+
 ## Revisions
 
 * Version 1.1 Initial Public Release
