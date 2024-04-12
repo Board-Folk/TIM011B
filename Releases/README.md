@@ -4,4 +4,6 @@ Each releases folder contains a Kicad, Gerbers and BOM folder, the latter contai
 
 ## v1.1
 
+12/04/2024
+
 Initial public release. This doesn't deviate much from the original 1987 board. Please check out the revision notes, currently on the repository home readme for modifications.
