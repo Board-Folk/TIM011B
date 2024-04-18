@@ -117,6 +117,10 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 |1|Y1|12.288Mhz HC-49U|Crystal||
 |1|Y2|8.00Mhz HC-49U|Crystal||
 
+## Links
+
+   [Marko's Blog Post on the TIM 011](https://blog.8bitchip.info/482-tim-011-a-new-life-for-an-old-computer/)
+
 ## Credits
 
 PCB Layout by Rob Taylor @peepouk. Schematics recreated and modifications by Ian Cudlip @grandoldian. Special thanks to @demerzel, your schematics have helped and saved time.
