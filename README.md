@@ -54,7 +54,7 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * Version 1.2 Unreleased
 * Version 1.3 Current Release
   
-## Version 1 Modifications from Original
+### Version 1 Modifications from Original
 
 * Fixed VSYNC Buffer
 * Fix Strobe Pullup
@@ -67,7 +67,7 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * Added mounting holes
 * Power LED
 
-## Version 1.1
+### Version 1.1
 
 * C42 silkscreen
 * Fix J4 and J5 connections
@@ -76,7 +76,7 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * Increase DB25 mounting point radius to 1.6mm
 * Add JMP4 drive Ready/Disk Change modification
 
-## Version 1.2
+### Version 1.2
 
 * 5V Only operation - added DC barrel jack
 * Ceramic caps changed to 5.08mm
@@ -88,11 +88,10 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * RAM change to 44256
 * "Half-can" Oscillators for X1 and X2
 * JMP9 12V Power selection for expansion bus pin 40
-* JMP10 VSYNC selection
 * Grounding point
 * Support for keyboard modules
 
-## Version 1.3
+### Version 1.3
 
 * Replaced U2 74LS08 with GAL16V8
 * Sync signals negative with standard GAL
@@ -100,6 +99,23 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * Oscillators now buffered
 * R8 reset pullup
 * Composite video output
+
+## Jumper Settings
+
+Version 1.3
+
+|Jumper|Description|Default|
+|:--:|:--:|:--:|
+|JMP1|CTS0 Select|2-3|
+|JMP2|CTS/DCD Select|4-5,7-8|
+|JMP3|XT Keyboard Fix|1-2 D Normal, 2-3 U Fix|
+|JMP4|FDC Ready|Optional|
+|JMP5|Keyboard Power|1-2 D 12V, 2-3 U 5V|
+|JMP6|ROM A14|1-2 L 5V, 2-3 R A14|
+|JMP7|ROM A15|1-2 L 5V, 2-3 R A15|
+|JMP8|Video Bypass|1-2 U Normal, 2-3 D Disable|
+|JMP9|12V Expansion Pin 40|NF|
+|JMP10|HSYNC connection for CSYNC|Preset ON|
 
 ## Links
 
