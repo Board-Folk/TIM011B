@@ -1,0 +1,67 @@
+EQN2JED - Boolean Equations to JEDEC file assembler (Version V101)
+Copyright (c) National Semiconductor Corporation 1990-1993
+
+Log file for TIM_SYNC.EQN
+Device: 16V8
+
+Pin   Label               Type
+---   -----               ----
+1     VQ5                 pos,com input
+2     VQ4                 pos,com input
+3     VQ6                 pos,com input
+4     VQ3                 pos,com input
+5     VQ8                 pos,com input
+6     HQ8                 pos,com input
+7     HQ9                 pos,com input
+8     HQ6                 pos,com input
+9     HQ7                 pos,com input
+10    GND                 ground pin
+14    /CSYNC              neg,com output
+15    BLANK               pos,com output
+16    HRESET              pos,com output
+17    /HSYNC              neg,com feedback
+18    /VSYNC              neg,com feedback
+19    VRESET              pos,com output
+20    VCC                 power pin
+
+EQN2JED - Boolean Equations to JEDEC file assembler (Version V101)
+Copyright (c) National Semiconductor Corporation 1990-1993
+
+Device Utilization:
+
+No of dedicated inputs used               :  9/10 (90.0%)
+No of dedicated outputs used              :  2/2  (100.0%)
+No of feedbacks used as dedicated outputs :  2/6  (33.3%)
+No of feedbacks used                      :  2/6  (33.3%)
+
+		------------------------------------------
+		Pin   Label                 Terms Usage
+		------------------------------------------
+		19    VRESET                1/8   (12.5%)
+		18    VSYNC                 1/8   (12.5%)
+		17    HSYNC                 1/8   (12.5%)
+		16    HRESET                1/8   (12.5%)
+		15    BLANK                 2/8   (25.0%)
+		14    CSYNC                 2/8   (25.0%)
+		------------------------------------------
+		Total Terms                 8/64  (12.5%)
+		------------------------------------------
+
+EQN2JED - Boolean Equations to JEDEC file assembler (Version V101)
+Copyright (c) National Semiconductor Corporation 1990-1993
+
+                            Chip diagram (DIP)
+
+                             ._____    _____.
+                             |     \__/     |
+                         VQ5 |  1        20 | VCC
+                         VQ4 |  2        19 | VRESET
+                         VQ6 |  3        18 | /VSYNC
+                         VQ3 |  4        17 | /HSYNC
+                         VQ8 |  5        16 | HRESET
+                         HQ8 |  6        15 | BLANK
+                         HQ9 |  7        14 | /CSYNC
+                         HQ6 |  8        13 | 
+                         HQ7 |  9        12 | 
+                         GND | 10        11 | 
+                             |______________|
