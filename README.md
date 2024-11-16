@@ -20,7 +20,7 @@ Projects are in Kicad 8.
 
 ## Building the board
 
-A BOM is present in each release folder. The Kicad iBOM plugin has also been used to create an interactive BOM in the BOM subfolders for the main boards and expansion boards. Since these builds uses obsolete parts, such as the CPU, FDC and RAM, we cannot provide any links to those parts. They are available on AliExpress and eBay, but many sellers will ship relabeled or faulty ICs. Be careful.
+A BOM is present in each release folder. The Kicad iBOM plugin has also been used to create an interactive BOM in the BOM subfolders for the main boards and expansion boards. Since these builds use obsolete parts, such as the CPU, FDC and RAM, we cannot provide any links to those parts. They are available on AliExpress and eBay, but many sellers will ship relabeled or faulty ICs. Be careful.
 
 ## Using the board
 
