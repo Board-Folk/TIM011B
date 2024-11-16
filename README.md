@@ -91,7 +91,7 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * JMP10 VSYNC selection
 * Grounding point
 
-# Version 1.3
+## Version 1.3
 
 * Replaced U2 74LS08 with GAL16V8
 * Sync signals negative with standard GAL
