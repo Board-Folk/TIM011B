@@ -1,0 +1,245 @@
+(footprint "TIM_Potentiometer_ACP_CA9-V10_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, ACP CA9-V10, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
+	(tags "Potentiometer vertical ACP CA9-V10")
+	(property "Reference" "REF**"
+		(at 5 -8.65 0)
+		(layer "F.SilkS")
+		(uuid "f4f7c8a0-49cd-4126-b330-1dc5dfbbd35c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TIM_Potentiometer_ACP_CA9-V10_Vertical"
+		(at 5 3.65 0)
+		(layer "F.Fab")
+		(uuid "ac352be0-1875-48f2-a910-abf0b03c31c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a153f16-7d88-4bc9-afd8-26b3e9c00f1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bfc3fbe-4b1d-49b6-8f0e-1e85808af741")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e66c7bf-cb2d-4950-b16d-036edf78cd71")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.12 -7.521)
+		(end -0.12 -6.426)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0284a964-88f4-4666-872e-aa217b2a9484")
+	)
+	(fp_line
+		(start -0.12 -7.521)
+		(end 10.12 -7.521)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6def82c-6dee-4e46-bfcc-05ad5857a3c4")
+	)
+	(fp_line
+		(start -0.12 -3.574)
+		(end -0.12 -1.425)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b1d2845-b016-4abe-9e0c-d6eb3f2fdca0")
+	)
+	(fp_line
+		(start -0.12 1.425)
+		(end -0.12 2.52)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8319d69c-5aa8-43ae-babc-6a4bf56c1df9")
+	)
+	(fp_line
+		(start -0.12 2.52)
+		(end 10.12 2.52)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef6f438d-73a1-43db-8e9b-91d4ed4c9ff9")
+	)
+	(fp_line
+		(start 10.12 -7.521)
+		(end 10.12 -3.925)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2909f781-e25e-4616-81c9-c2e9b45d9216")
+	)
+	(fp_line
+		(start 10.12 -1.075)
+		(end 10.12 2.52)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "116ed573-69dd-40c9-9790-7b2ccd47cc50")
+	)
+	(fp_circle
+		(center 5 -2.5)
+		(end 6.05 -2.5)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b4a81cf6-1524-4541-bd3f-a2622245551b")
+	)
+	(fp_rect
+		(start -1.4 -7.8)
+		(end 11.4 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "38ae05c2-6a0f-4a0b-8ad9-612f528ccccc")
+	)
+	(fp_line
+		(start 0 -7.4)
+		(end 0 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9991f1cd-fd4a-4f15-95ab-c070bd495078")
+	)
+	(fp_line
+		(start 0 2.4)
+		(end 10 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "261fc78f-15c4-433e-8cab-72ab6f6bdb1b")
+	)
+	(fp_line
+		(start 10 -7.4)
+		(end 0 -7.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf22332a-5d7b-4085-82f4-928ccab561c9")
+	)
+	(fp_line
+		(start 10 2.4)
+		(end 10 -7.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e5da3d4-d063-4c4b-b66c-8bf499ab2288")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 -2.5 90)
+		(layer "F.Fab")
+		(uuid "7102556b-099b-42e4-95d0-6cfb047e485d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c49936cc-a956-41e8-a367-66021db07f58")
+	)
+	(pad "2" thru_hole circle
+		(at 10 -2.5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45692bd4-8be0-4e44-b0d0-edae823f30f7")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -5)
+		(size 2.34 2.34)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df74e94f-b3d1-409a-bc46-48b53be15450")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_ACP_CA9-V10_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
