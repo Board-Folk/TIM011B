@@ -48,6 +48,10 @@ More information to follow.
 Marko Šolajić has put a great page together with a ROM, boot disks, software and other resources to help get the TIM-011 going. Highly recommended. The standard "sys", system ROM is 8KB, this will fit on the currently still manufactured and widely available AT28C64B.
 
   [TIM011 Resources](https://blog.8bitchip.info/tim011-resources/)
+  
+Marko is also documenting system software and has provided a new boot ROM. These can be found here:
+
+  [TIM011 System Software](https://github.com/msolajic/tim011-system-software)
 
 ## Revisions
 
