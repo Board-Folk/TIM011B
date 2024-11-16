@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TIMPS2Key")(type "KiCad")(uri "${KIPRJMOD}/TIMPS2Key.kicad_sym")(options "")(descr ""))
+  (lib (name "Dragon32_PS2")(type "KiCad")(uri "${KIPRJMOD}/Dragon32_PS2.kicad_sym")(options "")(descr ""))
+)
