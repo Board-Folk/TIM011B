@@ -6,7 +6,11 @@
 
 ## Version 1.3 BOM
 
-There are 3 options for board power, P2, P5 or P7. Ceramic capacitors 5.08mm and resistors 1/4W. See GAL folder for U2 GAL code.
+There are 3 options for board power, P2, P5 or P7. Ceramic capacitors 5.08mm and resistors 1/4W.
+
+See GAL folder for U2 GAL code. Tested on ATF16V8B-15PC.
+See ROM folder for the binary of the updated ROM.
+ROM and GAL by Marko Šolajić (@msolajic).
 
 |Qty|Reference(s)|Value|Type|Notes|
 |:--:|:--:|:--:|:--:|:--:|
