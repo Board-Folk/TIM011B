@@ -30,13 +30,13 @@ Version 1.3 has a centre positive DC barrel jack for only 5V operation also.
 
 ### Video
 
-Video original output is not standard, conversion is needed for use on a modern display. We will be posting options for this in the extensions folder. As a technical note, video is provided as 2 TTL signals to provide 4 shades, with a relatively wide horizonal and vertical sync for the original CRT. The horizontal sync is in an awkward position and is more simlar to horizonal drive found on comparible systems with a simple in-build CRT display.
+Original video output is not standard, conversion is needed for use on a modern display. This works directly with the original screen and is the only output option on boards until version v1.3. The video fix extension board gives conversion to composite video for boards up to release v1.1. As a technical note, the original video output is provided as 2 TTL signals to giving 4 shades, with a relatively wide horizonal and vertical sync for the original CRT. The horizontal sync is in an awkward position and is more simlar to horizonal drive found on comparible systems with a simple in-build CRT display.
 
 Version 1.3 adds a composite video output for use on standard monitors.
 
 ### Keyboard
 
-The keyboard is serial ASCII, 9600 8E1 with a 12V power output on the 5 pin DIN header. Version 1.3 adds the option to switch this to 5V operation. Adapter boards will be added to the extensions folder for this also including modules for v1.3 to contain keyboard conversion within the board footprint.
+The keyboard is serial ASCII, 9600 8E1 with a 12V power output on the 5 pin DIN header. Version 1.3 adds the option to switch this to 5V operation. Adapter boards are being added to the extensions folder for this and will also including modules for the v1.3 mainboard to contain keyboard conversion within the board footprint.
 
 No operating system is included within the ROM - it needs to boot this from floppy disk or equivalent Gotek or Flash Floppy device. Marko's updated ROM for v1.3, which is backwards compatable adds diagnotics and support to boot from CF cards with the 8 bit CF/IDE expansion board and adapter.
 
