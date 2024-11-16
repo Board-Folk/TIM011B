@@ -1,0 +1,178 @@
+(footprint "TIM_Tant"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=4.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
+	(tags "CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 4.5mm Tantal Electrolytic Capacitor")
+	(property "Reference" "REF**"
+		(at 1.25 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "30f95597-6e78-4b5b-9a28-4b0fe7f81fcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TIM_Tant"
+		(at 1.25 3.5 0)
+		(layer "F.Fab")
+		(uuid "965533c1-2ca9-4095-920e-61a756a9c35f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd74b866-9519-43b2-b4a9-1e8f5ddc3d4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9468d24a-4611-4bbd-aab5-4b56d9d15bb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a9bc108-d38b-4433-b8b3-e0f6667ccb9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.778 -1.651)
+		(end -1.016 -1.651)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f3b9ab6-1f0a-4936-b7ab-1712af8164e9")
+	)
+	(fp_line
+		(start -1.397 -2.032)
+		(end -1.397 -1.27)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc9972e-7d43-42fb-ae5e-b4d43cf3e931")
+	)
+	(fp_arc
+		(start -0.869741 -1.06)
+		(mid 3.619999 0)
+		(end -0.869741 1.06)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a66afb6b-20a2-4b2d-8911-6838cb4cf03c")
+	)
+	(fp_circle
+		(center 1.25 0)
+		(end 3.78 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7044de72-ae3c-46a2-8d9d-51d5097757d0")
+	)
+	(fp_line
+		(start -0.66808 -0.9775)
+		(end -0.21808 -0.9775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3778202-6699-4f27-b571-59eb462b182d")
+	)
+	(fp_line
+		(start -0.44308 -1.2025)
+		(end -0.44308 -0.7525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0183ea8-6dcb-4d86-aa8d-e0deee635e65")
+	)
+	(fp_circle
+		(center 1.25 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "50d75090-4934-4f49-91fb-7e49e9f23d1f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 0 0)
+		(layer "F.Fab")
+		(uuid "c0fc3f77-741a-4c91-98bd-bcafcd959220")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71896d12-f3ed-43f0-8bb9-00e1d8f10120")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f787f77b-4ca1-4c90-be8b-eeef63542b84")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P2.50mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

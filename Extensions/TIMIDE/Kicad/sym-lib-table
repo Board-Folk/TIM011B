@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "011TIMSCSI")(type "KiCad")(uri "${KIPRJMOD}/011TIMSCSI.kicad_sym")(options "")(descr ""))
+  (lib (name "E01EIC")(type "KiCad")(uri "${KIPRJMOD}/E01EIC.kicad_sym")(options "")(descr ""))
+)
