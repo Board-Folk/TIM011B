@@ -4,7 +4,7 @@ An updated remake of the TIM-011 computer from Serbia.
 
 ![Image of build version 1.3 board in black](https://github.com/Board-Folk/TIM011B/blob/main/images/tim011bv1_3_built_small.png)
 
-This repository contains the BOM, gerbers and Kicad files for a remake of the TIM-011 from the Mihajlo Pupin Institute of Serbia, 1987.
+This repository contains the Bill-of-Materials (BOM), Gerbers and Kicad files for a remake of the TIM-011 from the Mihajlo Pupin Institute of Serbia, 1987.
 
 ** Currently Being Updated **
 
@@ -19,6 +19,10 @@ Feel free to fork and make your own mods outside of this repository. Folder Exte
 The work-in-progress version of the board has been removed from this project. If you're looking to make one, pick the latest version from the Releases folder.
 
 Projects are in Kicad 8.
+
+## Building the board
+
+A BOM is present in each release folder. The Kicad iBOM plugin has also been used to create an interactive BOM in the BOM subfolders for the main boards and expansion boards. Since these builds uses obsolete parts, such as the CPU, FDC and RAM, we cannot provide any links to those parts. They are available on AliExpress and eBay, but many sellers will ship relabeled or faulty ICs. Be careful.
 
 ## Using the board
 
@@ -41,7 +45,6 @@ The keyboard is serial ASCII, 9600 8E1 with a 12V power output on the 5 pin DIN 
 No operating system is included within the ROM - it needs to boot this from floppy disk or equivalent Gotek or Flash Floppy device. Marko's updated ROM for v1.3, which is backwards compatable adds diagnotics and support to boot from CF cards with the 8 bit CF/IDE expansion board and adapter.
 
 More information to follow.
-
 
 ## TIM011 Resources
 
