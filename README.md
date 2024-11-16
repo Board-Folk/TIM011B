@@ -6,8 +6,6 @@ An updated remake of the TIM-011 computer from Serbia.
 
 This repository contains the Bill-of-Materials (BOM), Gerbers and Kicad files for a remake of the TIM-011 from the Mihajlo Pupin Institute of Serbia, 1987.
 
-** Currently Being Updated **
-
 Version 1.1 does not deviate from the original board too much so it can still be considered a replica.
 
 Version 1.2 includes 5V only operation, but due to stability issues this has not been published.
