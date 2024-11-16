@@ -90,6 +90,7 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * JMP9 12V Power selection for expansion bus pin 40
 * JMP10 VSYNC selection
 * Grounding point
+* Support for keyboard modules
 
 ## Version 1.3
 
