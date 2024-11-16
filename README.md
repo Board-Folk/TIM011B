@@ -2,25 +2,43 @@
 
 An updated remake of the TIM-011 computer from Serbia.
 
-![Image of build version 1 board in green](https://github.com/Board-Folk/TIM011B/blob/main/images/tim011bv1_built_small.png)
+![Image of build version 1.3 board in black](https://github.com/Board-Folk/TIM011B/blob/main/images/tim011bv1_3_built_small.png)
 
 This repository contains the BOM, gerbers and Kicad files for a remake of the TIM-011 from the Mihajlo Pupin Institute of Serbia, 1987.
 
-Version 1.1 does not deviate from the original board too much so it can still be considered a replica. Feel free to fork and make your own mods outside of that. Future releases will contain improvements to this. Folder Extensions contains add on expansions and adapters for the board. More will follow over time.
+** Currently Being Updated **
 
-The root Kicad folder contains the current work-in-progress version of the board. If you're looking to make one, don't use this, pick the latest version from the Releases folder, currently v1.1.
+Version 1.1 does not deviate from the original board too much so it can still be considered a replica.
+
+Version 1.2 includes 5V only operation, but due to stability issues this has not been published.
+
+Version 1.3 contains improvements including composite video output, updated oscilators and stability fixes and uses a GAL for video sync signals. The initial version of this GAL is incompatible with the original screen, a modified version may be added in the future.
+
+Feel free to fork and make your own mods outside of this repository. Folder Extensions contains add on expansions and adapters for the board. More will follow over time.
+
+The work-in-progress version of the board has been removed from this project. If you're looking to make one, pick the latest version from the Releases folder.
 
 Projects are in Kicad 8.
 
 ## Using the board
 
-The board requires 5V, 12V and -12V power. Power connectors on the board are the original Ei Niš connector P2, but due to the lack of availability of this part we've added P5, a standard 4 pin 3.96mm pin header to the rear of the board. 
+### Power
 
-Video output is not standard, conversion is needed for use on a modern display. We will be posting options for this in the extensions folder. As a technical note, video is provided as 2 TTL signals to provide 4 shades, with a relatively wide horizonal and vertical sync for the original CRT. The horizontal sync is in an awkward position and is more simlar to horizonal drive found on comparible systems with a simple in-build CRT display.
+Version 1.1, as the original board requires 5V, 12V and -12V power. Power connectors on the board are the original Ei Niš connector P2, but due to the lack of availability of this part we've added P5, a standard 4 pin 3.96mm pin header to the rear of the board. 
 
-The keyboard is serial ASCII, 9600 8E1 with a 12V power output on the 5 pin DIN header. Adapter boards will be added to the extensions folder for this also.
+Version 1.3 has a centre positive DC barrel jack for only 5V operation also.
 
-No operating system is included within the ROM - it needs to boot this from floppy disk or equivalent Gotek or Flash Floppy device.
+### Video
+
+Video original output is not standard, conversion is needed for use on a modern display. We will be posting options for this in the extensions folder. As a technical note, video is provided as 2 TTL signals to provide 4 shades, with a relatively wide horizonal and vertical sync for the original CRT. The horizontal sync is in an awkward position and is more simlar to horizonal drive found on comparible systems with a simple in-build CRT display.
+
+Version 1.3 adds a composite video output for use on standard monitors.
+
+### Keyboard
+
+The keyboard is serial ASCII, 9600 8E1 with a 12V power output on the 5 pin DIN header. Version 1.3 adds the option to switch this to 5V operation. Adapter boards will be added to the extensions folder for this also including modules for v1.3 to contain keyboard conversion within the board footprint.
+
+No operating system is included within the ROM - it needs to boot this from floppy disk or equivalent Gotek or Flash Floppy device. Marko's updated ROM for v1.3, which is backwards compatable adds diagnotics and support to boot from CF cards with the 8 bit CF/IDE expansion board and adapter.
 
 More information to follow.
 
@@ -33,6 +51,8 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 ## Revisions
 
 * Version 1.1 Initial Public Release
+* Version 1.2 Unreleased
+* Version 1.3 Current Release
   
 ## Version 1 Modifications from Original
 
@@ -56,66 +76,29 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 * Increase DB25 mounting point radius to 1.6mm
 * Add JMP4 drive Ready/Disk Change modification
 
-## Version 1.1 BOM
+## Version 1.2
 
-|Qty|Reference(s)|Value|Type|Notes|
-|:--:|:--:|:--:|:--:|:--:|
-|47|C3,C8-C53|100nF 7.5mm|Ceramic Capacitor||
-|1|C2|1nF 7.5mm|Ceramic Capacitor||
-|1|C5|2.2nF 7.5mm|Ceramic Capacitor||
-|2|C6,C7|470pF 7.5mm|Ceramic Capacitor||
-|1|CX1|330pF 7.5mm|Ceramic Capacitor||
-|1|C1|22uF 25V|Electrolytic Capacitor|Axial or Radial|
-|1|C4|10uF|Electrolytic Capacitor|Axial or Radial|
-|1|D1|1N4148|Diode||
-|2|R1,R12|470R|Resistor||
-|5|R2-R5,R7|4K7|Resistor||
-|1|R6|100R|Resistor||
-|4|R8,R10,R13,R15|330R|Resistor||
-|4|R9,R11,R14,R16|1K|Resistor||
-|2|RP1,RP2|4K7 SIP10 Bussed|Resistor Network||
-|1|RP3|330R SIP10 Bussed|Resistor Network||
-|1|U17|HD64180|IC|CPU|
-|1|U43|FDC9266|IC|Floppy Controller|
-|1|U9|MC1488|IC|Serial Line Driver|
-|1|U8|MC1489|IC|Serial Line Receiver|
-|1|U29|74HC153|IC||
-|2|U3,U13|74HC4040|IC||
-|1|U23|74LS00|IC||
-|1|U24|74LS04|IC||
-|1|U34|74LS06|IC||
-|1|U33|74LS07|IC||
-|2|U1,U2|74LS08|IC||
-|1|U32|74LS139|IC||
-|7|U19-U22,U26-U28|74LS157|IC||
-|1|U35|74LS158|IC||
-|1|U18|74LS20|IC||
-|2|U14,U44|74LS240|IC||
-|1|U42|74LS244|IC||
-|2|U11,U12|74LS283|IC||
-|1|U31|74LS32|IC||
-|5|U4-U6,U40,U41|74LS374|IC||
-|4|U7,U10,U15,U25|74LS74|IC||
-|1|U16|27C64|IC|System ROM|
-|8|U36-U39,U45-U48|41256 DRAM|IC|System RAM|
-|1|U30|43256 SRAM|IC|Video RAM|
-|1|T1|Unknown Reset Switch|Switch|T1 or T2|
-|1|T2|RA Momentary Switch|Switch||
-|1|J1|DB25 Male Right Angle|Socket|Printer|
-|1|J2|DB25 Female Right Angle|Socket|Serial|
-|1|J3|5 pin DIN|Socket|180 degree / ASCII Keyboard|
-|2|J4,J5|4 pin header|2.54mm Header|Alt TTL Serial|
-|1|JMP1|3 pin header|2.54mm Header||
-|1|JMP2|5 pin header|2.54mm Header||
-|1|JMP3|3 pin header|2.54mm Header|XT keyboard mod enable|
-|1|JMP4|2 pin header|2.54mm Header|Fix Ready/Disk Change|
-|1|P1|5 pin header|Header|Video|
-|1|P3|2x20 pin header|Dual Row 2.54mm Header|Expansion|
-|1|P4|2x17 pin header|Dual Row 2.54mm Header|Floppy|
-|1|P2|Unknown Ei Niš 4 pin header|Header|Power|
-|1|P5|3.96mm 4 pin header|3.96mm Header|Alt Power|
-|1|Y1|12.288Mhz HC-49U|Crystal||
-|1|Y2|8.00Mhz HC-49U|Crystal||
+* 5V Only operation - added DC barrel jack
+* Ceramic caps changed to 5.08mm
+* Updated silkscreen
+* JMP5 5V/12V keyboard selection
+* A13,A14,A15 ROM options
+* JMP8 No Video jumper
+* Change serial to MAX232 (5V)
+* RAM change to 44256
+* "Half-can" Oscillators for X1 and X2
+* JMP9 12V Power selection for expansion bus pin 40
+* JMP10 VSYNC selection
+* Grounding point
+
+# Version 1.3
+
+* Replaced U2 74LS08 with GAL16V8
+* Sync signals negative with standard GAL
+* Change serial port to 9 pin
+* Oscillators now buffered
+* R8 reset pullup
+* Composite video output
 
 ## Links
 
@@ -123,14 +106,12 @@ Marko Šolajić has put a great page together with a ROM, boot disks, software a
 
 ## Credits
 
-PCB Layout by Rob Taylor @peepouk. Schematics recreated and modifications by Ian Cudlip @grandoldian. Special thanks to @demerzel, your schematics have helped and saved time.
+PCB Layout by Rob Taylor @peepouk, Ian Cudlip @grandoldian and Marko Šolajić @msolajic. Schematics recreated and modifications by Ian Cudlip and Marko Šolajić. Special thanks to @demerzel, your schematics have helped and saved time.
 
 ## Thanks
 
 * Zoltan Pekic
-* Marko Šolajić
 * @demerzel
-* OTHERS! We need to fully credit sources of information for this project.
 * The Board Folk Team
 
 ## Legal

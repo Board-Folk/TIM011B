@@ -2,9 +2,7 @@
 
 12/04/2024
 
-![Image of build version 1.1 board in green](https://github.com/Board-Folk/TIM011B/blob/main/images/TIM-011Bv1.1_render.png)
-
-This version of the board hasn't been physically built yet - should be in a week or so, JLC allowing (12/04), but we don't anticipate any issues.
+![Image of build version 1.1 board in green](https://github.com/Board-Folk/TIM011B/blob/main/images/tim011bv1_1_built_small.png)
 
 ## Version 1.1 BOM
 
