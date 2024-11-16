@@ -12,7 +12,7 @@ Version 1.1 does not deviate from the original board too much so it can still be
 
 Version 1.2 includes 5V only operation, but due to stability issues this has not been published.
 
-Version 1.3 contains improvements including composite video output, updated oscilators and stability fixes and uses a GAL for video sync signals. The initial version of this GAL is incompatible with the original screen, a modified version may be added in the future.
+Version 1.3 contains improvements including composite video output, updated oscilators and stability fixes and uses a GAL for video sync signals. The initial version of this GAL is incompatible with the original screen, a modified version may be added in the future. From version 1.3, the board changed from using HC-49 crystals to TTL output DIP8 layout "square" can type oscillators.
 
 Feel free to fork and make your own mods outside of this repository. Folder Extensions contains add on expansions and adapters for the board. More will follow over time.
 
@@ -41,6 +41,7 @@ The keyboard is serial ASCII, 9600 8E1 with a 12V power output on the 5 pin DIN 
 No operating system is included within the ROM - it needs to boot this from floppy disk or equivalent Gotek or Flash Floppy device. Marko's updated ROM for v1.3, which is backwards compatable adds diagnotics and support to boot from CF cards with the 8 bit CF/IDE expansion board and adapter.
 
 More information to follow.
+
 
 ## TIM011 Resources
 
