@@ -17,3 +17,9 @@ Initial public release. This doesn't deviate much from the original 1987 board.
 16/11/2024
 
 Contains improvements including composite video output, updated oscillators and stability fixes.
+
+## v1.3.1
+
+19/11/2024
+
+Silkscreen fixes only.

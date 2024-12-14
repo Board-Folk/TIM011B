@@ -1,0 +1,65 @@
+v1 Initial Release
+
+v1.1 
+
+Remove C42 label
+Fix J4, J5 connections
+Fixed Zoltan credits silkscreen. Moved C6 and C7 down a little to avoid interference with crystals.
+Fixed the 2 x silkscreen octagons so they are symmetrical.
+Moved U15 designator to stop clash with R20 component and nearby via.
+U18 label correction 74LS20
+ROM A13 to GND
+Increase DB25 mounting point radius to 1.6mm
+Remove hole under C4
+Credits change
+Add JMP4 Floppy Ready/Disk Change Modification
+
+v1.2
+
+Change ceramic caps to 5.08mm
+Remove IMP Branding, update credits
+Change U24 label to 74LS04
+JMP5 5V/12V Keyboard Voltage Selection
+Connect A13 to ROM
+A14,A15 ROM Jumpers JMP6, JMP7
+JMP8 No Video jumper
+Change 1488/1489 to MAX232
+5V DC Barrel Jack
+Change serial port to 9 pin
+Move J5 to position as keyboard expansion
+Replace RAM with 44256
+"Half-can" Oscillators X1 and X2
+12V Power to expansion pin 40 with JMP9
+VSYNC selection jumper JMP10
+TIM-011 Logo and Graphic
+Grounding point
+
+v1.3 (Attempt 1 - removed/reverted - ignore)
+
+Remove U2 74LS08, add U2 74LS20
+Move around signals to different inverter gates, free up inverters on U14 - move to U24
+Update logic for generating sync signals, center image on screen with correct sync pulse length
+Use (now free) inverters on U14 for creating logic for sync
+Sync signals are now negative!
+Rotated oscillators so they are oriented the same way with pin 1 bottom left
+JMP10 is now obsolete, revert as per v1.1
+Gave up on this
+Reverted
+
+v1.3
+
+Remove U2 74LS08, add U2 GAL16V8
+GAL16V8 will generate HSYNC, VSYNC, HRESET and VRESET
+Sync signals are now negative!
+JMP10 is now obsolete, revert as per v1.1
+Serial port now changed to DE9 to make room for RCA/Composite jack
+X1 moved
+X1 and X2 now buffered with U44
+Add R8 pull up for Reset
+Added composite schematic from videofix board with adjustments and csync with diodes
+JMP10 now preconfigued connection to HSYNC severable as VSYNC backfeeds back to the buffer output and original header
+R13 considered optional in case of no sync on composite (remove if necessary)
+
+v1.3.1
+
+Update ROM Footprint

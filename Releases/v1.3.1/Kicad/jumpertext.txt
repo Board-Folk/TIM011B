@@ -1,0 +1,10 @@
+JMP1	CTS0 Select (2-3)
+JMP2	CTS/DCD Select (4-5,7-8)
+JMP3	XT Keyboard Fix (1-2 D Normal, 2-3 U Fix)
+JMP4	FDC Ready
+JMP5	Keyboard Power (1-2 D 12V, 2-3 U 5V)
+JMP6	ROM A14 (1-2 L 5V, 2-3 R A14)
+JMP7	ROM A15 (1-2 L 5V, 2-3 R A15)
+JMP8	Video Bypass (1-2 U Normal, 2-3 D Disable)
+JMP9	12V Expansion Pin 40
+JMP10	Preset ON. HSYNC connection for CSYNC
