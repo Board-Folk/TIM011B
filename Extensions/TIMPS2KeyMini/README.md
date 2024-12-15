@@ -10,7 +10,7 @@ v1.1 Initial release
 
 ## Main board modifications
 
-This fits instead of the external RS232 functionality of the original keyboard and connector. Do not fit the MAX232 at J9, the 5 pin DIN socket J3 and the charge caps C58-C61, fitting the 4 pin header J5 instead. Standoffs will needed to be mounted to secure the mini keyboard board and the pin length of the J5 header should match the standoff length. Recommendations may follow.
+This fits instead of the external RS232 functionality of the original keyboard and connector (serial port RS232 remains). On the mainboard, do not fit the MAX232 at J9, the 5 pin DIN socket J3 and the charge caps C58-C61, fitting the 4 pin header J5 instead. Standoffs will needed to be mounted to secure the mini keyboard board and the pin length of the J5 header should match the standoff length. Recommendations may follow.
 
 ## Programming the ATMega328
 
